@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ActividadUsoLayout.MainPage">
 
-    <Grid RowDefinitions="300, 150, 75"
+    <Grid RowDefinitions="4*,2*,*"
           ColumnDefinitions="*,*">
         <BoxView Grid.Row="0" Grid.Column="0" Color="Green"/>
         <Label Text="Row 0,Column 0" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0" Grid.Column="0"/>
